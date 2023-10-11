@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Fever</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: url("/Gym\ bg.jpg");
+            font-family: 'Merriweather', serif;
+        }
+
+        .left img {
+            width: 85px;
+            height: 80px;
+        }
+
+        .left {
+            display: inline-block;
+            position: absolute;
+            left: 34px;
+            top: 10px;
+
+        }
+
+        .mid {
+            display: block;
+            margin: 12px auto;
+            width: 43%;
+        }
+
+        .right {
+            display: inline-block;
+            position: absolute;
+            right: 34px;
+            top: 12px;
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 17px;
+
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 20px 12px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: #4f88b9;
+        }
+
+        .left div {
+            text-align: center;
+            color: #5b82a3;
+            font-size: 16px;
+            line-height: 5px;
+        }
+
+        .btn {
+            margin: 7px 5px;
+            background-color: #224e75;
+            color: white;
+            border: 2px solid rgb(165, 145, 131);
+            border-radius: 6px;
+            padding: 4px 14px;
+            font-size: 10px;
+            cursor: pointer;
+            font-family: 'Merriweather', serif;
+        }
+
+        .btn:hover {
+            background-color: rgb(191, 154, 122);
+        }
+
+        .container {
+            border: 2px solid white;
+            margin: 70px auto;
+            padding: 38px;
+            width: 15%;
+            border-radius: 28px;
+        }
+
+        .form-group input {
+            font-family: 'Merriweather', serif;
+            text-align: center;
+            display: block;
+            width: 200px;
+            padding: 2px;
+            margin: 5px auto;
+            border: 2px solid grey;
+            border-radius: 5px;
+            font-size: 15px;
+        }
+
+        .container h1 {
+            text-align: center;
+            font-size: 15px;
+            color: #6999d7;
+        }
+
+        .container button {
+            display: block;
+            width: 205px;
+            margin: 15px auto;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="left">
+            <img src="/gym logo.png.png" alt="">
+            <div>Fitness Fever</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best Gym</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Phone No.">
+            </div>
+
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
